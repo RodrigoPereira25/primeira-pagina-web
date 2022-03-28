@@ -1,0 +1,59 @@
+/*Definição das fontes e tamanho da fonte*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+/*Aplicação de borda e configurações da borda no conteúdo*/
+header, main, aside, footer {
+    border: 1px solid black;
+    margin-bottom: 6px;
+}
+
+/*Configurções do cabeçalho*/
+header {
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 120px;
+        padding-left: 1rem;
+        padding-right: 2rem;
+}
+
+/*Configurações do tamanho, formato e posição da imagem em relação às bordas*/
+img {
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 2em;
+}
+
+/*Configurações de altura*/
+main, aside{
+    min-height: 250px;
+}
+
+/*Configurações da seção 1*/
+main {
+    width: 62%;
+    float: left;
+    text-align: justify;
+    padding: 2em 3em 2em 2em;
+}
+
+/*Configurações da seção 2*/
+aside {
+    text-align: center;
+    width: 25%;
+    float: right;
+    padding: 2em 3em 2em 2em;
+
+}
+
+/*Configurações do rodapé*/
+footer {
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
