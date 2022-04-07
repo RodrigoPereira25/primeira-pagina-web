@@ -34,7 +34,7 @@ div {
 
 /*Configurações de altura*/
 main, aside{
-    height: 250px;
+    height: auto;
     padding: 2em 2em 2em 2em;
 }
 
@@ -48,7 +48,6 @@ main {
 /*Configurações da seção 2*/
 aside {
     width: 25%;
-
 }
 
 .removeSublinhado {
