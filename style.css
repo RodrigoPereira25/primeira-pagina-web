@@ -48,6 +48,11 @@ main {
 /*Configurações da seção 2*/
 aside {
     width: 25%;
+
+}
+
+.removeSublinhado {
+    text-decoration: none;
 }
 
 .cabecalho {
