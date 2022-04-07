@@ -41,7 +41,6 @@ main, aside{
 /*Configurações da seção 1*/
 main {
     width: 75%;
-    float: left;
     text-align: justify;
     margin-right: 6px;
 }
@@ -49,7 +48,6 @@ main {
 /*Configurações da seção 2*/
 aside {
     width: 25%;
-    float: right;
 }
 
 .cabecalho {
