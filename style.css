@@ -27,26 +27,39 @@ img {
     margin-left: 2em;
 }
 
+/*Organizando main e aside*/
+div {
+    display: flex;
+}
+
 /*Configurações de altura*/
 main, aside{
-    min-height: 250px;
+    height: 250px;
+    padding: 2em 2em 2em 2em;
 }
 
 /*Configurações da seção 1*/
 main {
-    width: 62%;
+    width: 75%;
     float: left;
     text-align: justify;
-    padding: 2em 3em 2em 2em;
+    margin-right: 6px;
 }
 
 /*Configurações da seção 2*/
 aside {
-    text-align: center;
     width: 25%;
     float: right;
-    padding: 2em 3em 2em 2em;
+}
 
+.cabecalho {
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.corpo {
+    display: block;
+    margin-left: 5em;
 }
 
 /*Configurações do rodapé*/
